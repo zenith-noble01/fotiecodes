@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* text-align: center; */
+    font-family: uchen
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    background: #4A4020;
+    padding: 2rem;
+}
+
+.quote-wrapper{
+    background-color: white;
+    border-radius: 20px;
+    padding: 4rem 1.5rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.quote-wrapper .quote-text{
+    padding: 1.4rem 0;
+    font-weight:300;
+}
+.quote-wrapper .author{
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-style: normal;
+}
+
+.generator{
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #4A4020;
+}
+
+.generator:hover{
+    background-color: white;
+    color: #4A4020;
+    border: 2px solid #4A4020;
+}
